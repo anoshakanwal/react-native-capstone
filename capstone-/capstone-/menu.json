@@ -1,0 +1,39 @@
+{
+  "menu": [
+    {
+      "name": "Greek Salad",
+      "price": 12.99,
+      "description": "Our delicious salad is served with Feta cheese and peeled cucumber. Includes tomatoes, onions, olives, salt and oregano in the ingredients.",
+      "image": "https://github.com/Meta-Mobile-Developer-PC/Working-With-Data-API/blob/main/images/greekSalad.jpg?raw=true",
+      "category": "starters"
+    },
+    {
+      "name": "Bruschetta",
+      "price": 7.99,
+      "description": "Delicious grilled bread rubbed with garlic and topped with olive oil and salt. Our Bruschetta includes tomato and cheese.",
+      "image": "https://github.com/Meta-Mobile-Developer-PC/Working-With-Data-API/blob/main/images/bruschetta.jpg?raw=true",
+      "category": "starters"
+    },
+    {
+      "name": "Grilled Fish",
+      "price": 20.00,
+      "description": "Fantastic grilled fish seasoned with salt.",
+      "image": "https://github.com/Meta-Mobile-Developer-PC/Working-With-Data-API/blob/main/images/grilledFish.jpg?raw=true",
+      "category": "mains"
+    },
+    {
+      "name": "Pasta",
+      "price": 6.99,
+      "description": "Delicious pasta for your delight.",
+      "image": "https://github.com/Meta-Mobile-Developer-PC/Working-With-Data-API/blob/main/images/pasta.jpg?raw=true",
+      "category": "mains"      
+    },
+    {
+      "name": "Lemon Dessert",
+      "price": 4.99,
+      "description": "You can't go wrong with this delicious lemon dessert!",
+      "image": "https://github.com/Meta-Mobile-Developer-PC/Working-With-Data-API/blob/main/images/lemonDessert.jpg?raw=true",
+      "category": "desserts"      
+    }
+  ]
+}

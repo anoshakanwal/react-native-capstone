@@ -1,0 +1,34 @@
+<View style={styles.header}>
+        <Image
+        source={require('../assets/Logo.png')}
+        style={styles.logo}/>
+      </View>
+
+      <Text style={styles.title}>Let us get to know you</Text>
+
+      <Text style={styles.label}>First Name</Text>
+      <TextInput
+        style={styles.input}
+        value={firstName}
+        onChangeText={onChangeFirstName}
+        placeholder={'first name'}
+        keyboardType={'default'}
+      />
+
+      <Text style={styles.label}>Email</Text>
+      <TextInput
+        style={styles.input}
+        value={email}
+        onChangeText={onChangeEmail}
+        placeholder="Enter your email"
+        keyboardType="email-address"
+        autoCapitalize="none"
+      />
+
+      {/* Button */}
+      <View style={styles.buttonContainer}>
+        <Button
+          title="Next"
+          onPress={() => {}}
+        />
+      </View>
